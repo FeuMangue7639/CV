@@ -24,33 +24,40 @@ h3{
 
 
 html{
-    margin-left: 20em;
-    margin-right: 20em;
+    
     border-color: rgb(0, 0, 0);
     border-width: 4px;
+    width: cover;
+    height: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     border-right: solid;
 }
 
-header figure img{
-    width: 10em;
-    height: auto;
-}
 header h1{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    color: white;
 }
 
 header figure{
     display: flex;
     justify-content: center;
     flex-direction: row;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 250px;
+    width: auto;
 }
 
 header h2{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    color: white;
 }
 
 header{
@@ -60,6 +67,30 @@ header{
     margin-top: 0px;
     margin-left: 0px;
     margin-top: -20px;
-    width: 1269px;
+    width: 1160px;
+    border-right: solid;
       
 }
+
+header a img{
+    
+    border-radius: 5em;
+    margin-top: 5em;
+    object-fit: cover;
+
+    width: 10em;
+    height: auto;
+    box-shadow: 0 0 3em white;
+}
+
+body{
+    width: 1160px;
+    border-right: solid;
+   
+}
+
+footer{
+    border-right: solid;
+}
+
+
