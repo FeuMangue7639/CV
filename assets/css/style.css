@@ -9,6 +9,9 @@
 p{
     font-family: "Raleway", serif;
 }
+pre{
+    font-family: "Raleway", serif;
+}
 
 h1{
     font-family: 'Lato', sans-serif;
@@ -20,8 +23,13 @@ h2{
 
 h3{
     font-family: 'Lato', sans-serif;
+    padding-left: 2em;
 }
 
+h4{
+    font-family: 'Lato', sans-serif;
+    padding-left: 2em;
+}
 
 html{
     
@@ -33,6 +41,7 @@ html{
     flex-direction: row;
     justify-content: center;
     border-right: solid;
+    background-color: white;
 }
 
 header h1{
@@ -86,11 +95,26 @@ header a img{
 body{
     width: 1160px;
     border-right: solid;
-   
+    background-color: #782221;
+    
 }
 
 footer{
-    border-right: solid;
+    
+    background-color: #782221;
 }
 
 
+section {
+   display: inline-block;
+   background-color: #782221;
+}
+
+.deux{
+    background-color: white;
+}
+
+.un{
+    display: inline-block
+    
+}
