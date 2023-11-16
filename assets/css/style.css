@@ -24,7 +24,14 @@ h2{
 h3{
     font-family: 'Lato', sans-serif;
     padding-left: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    background: #dbc2a4;
+    width: 15em;
+    
 }
+
 
 h4{
     font-family: 'Lato', sans-serif;
@@ -90,6 +97,7 @@ header a img{
     width: 10em;
     height: auto;
     box-shadow: 0 0 3em white;
+    cursor: zoom-in;
 }
 
 body{
@@ -117,4 +125,38 @@ section {
 .un{
     display: inline-block
     
+}
+
+.couleur_1{
+    color: white;
+}
+
+.couleur_2{
+    color: white;
+}
+
+.couleur_3{
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+footer p :hover{
+    opacity: 0.4;
+}
+
+html h3:hover{
+    border-left: #782221 solid;
+    border-width: 0.5em;
 }

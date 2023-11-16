@@ -1,6 +1,5 @@
 .menu{
     list-style-type: none;
-    color: crimson;
     display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -21,7 +20,7 @@ ul li a{
 
 ul li a:hover{
         
-        color: crimson;
+        
         text-decoration: underline;
 }
 
