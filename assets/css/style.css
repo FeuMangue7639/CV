@@ -138,3 +138,25 @@ section {
 .couleur_3{
     color: white;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+footer p :hover{
+    opacity: 0.4;
+}
+
+html h3:hover{
+    border-left: #782221 solid;
+    border-width: 0.5em;
+}
